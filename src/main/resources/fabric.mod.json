@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "prp",
+  "version": "${version}",
+
+  "name": "Patchouli Resource Patch",
+  "description": "Enable Patchouli to load json from assets",
+  "authors": [
+    "StarskyXIII",
+    "kappa-maintainer"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod",
+    "issues": "https://github.com/FabricMC/fabric-example-mod/issues"
+  },
+
+  "license": "CC BY-NC-SA 3.0",
+  "icon": "assets/prp/logo.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.starskyxiii.prp.PRP"
+    ]
+  },
+  "mixins": [
+    "prp.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13",
+    "fabric": ">=0.47",
+    "minecraft": "1.18.x"
+  }
+}
