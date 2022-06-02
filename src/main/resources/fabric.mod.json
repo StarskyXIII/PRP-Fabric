@@ -10,9 +10,8 @@
     "kappa-maintainer"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod",
-    "issues": "https://github.com/FabricMC/fabric-example-mod/issues"
+    "homepage": "https://github.com/StarskyXIII/PRP-Fabric",
+    "sources": "https://github.com/StarskyXIII/PRP-Fabric"
   },
 
   "license": "CC BY-NC-SA 3.0",
